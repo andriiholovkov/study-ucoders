@@ -1,0 +1,99 @@
+@import './src/assets/_colors.scss';
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 360px;
+  padding: 32px 32px;
+  border-radius: 8px;
+  background-color: $background-light;
+
+  &__heading {
+    font-size: 28px;
+    line-height: 42px;
+    color: #394649;
+    margin-bottom: 16px;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  &__email {
+    margin-bottom: 8px;
+    height: 40px;
+    padding: 4px 12px;
+    border: 1px solid $additional-1;
+    border-radius: 4px;
+
+    &::placeholder {
+      font-size: 14px;
+      color: $placeholder;
+    }
+
+    &:hover {
+      border: 2px solid $additional-2;
+    }
+
+    &:focus-visible {
+      border: 2px solid red;
+    }
+  }
+
+  &__password {
+    margin-bottom: 8px;
+    height: 40px;
+    padding: 4px 12px;
+    border: 1px solid $additional-1;
+    border-radius: 4px;
+
+    &::placeholder {
+      color: $placeholder;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    &:hover {
+      border: 2px solid $additional-2;
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 24px;
+    color: $secondary;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    margin-bottom: 16px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__link-singUp {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: $additional-3;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    font-weight: 400;
+
+    a {
+      font-size: 16px;
+      line-height: 24px;
+      color: $secondary;
+      font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', -apple-system, sans-serif;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+  }
+}

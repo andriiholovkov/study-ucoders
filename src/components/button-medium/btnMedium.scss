@@ -1,0 +1,25 @@
+@import './src/assets/_colors.scss';
+
+.loginForm {
+  &__btn {
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $primary;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: $accent;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 32px;
+
+    &:hover {
+      color: $white;
+      background-color: $primary;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import './src/assets/_colors.scss';
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 24px;
+  align-items: center;
+  width: 100%;
+  height: 52px;
+  background-color: $background-dark;
+  margin-bottom: 40px;
+}
