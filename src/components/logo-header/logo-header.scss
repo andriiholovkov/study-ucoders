@@ -1,0 +1,8 @@
+@import '../../assets/colors';
+
+.mainHeader {
+  &__logo{
+    height: 32px;
+    fill: $white;
+  }
+}

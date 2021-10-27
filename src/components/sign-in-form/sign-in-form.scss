@@ -1,0 +1,82 @@
+@import './src/assets/_colors.scss';
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 360px;
+  padding: 32px 32px;
+  border-radius: 8px;
+  background-color: $background-light;
+
+  &__heading {
+    font-size: 28px;
+    line-height: 42px;
+    color: #394649;
+    margin-bottom: 16px;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  &__link {
+    font-size: 15px;
+    line-height: 24px;
+    color: $secondary;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    margin-bottom: 16px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__link-singUp {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: $additional-3;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    font-weight: 400;
+
+    a {
+      font-size: 16px;
+      line-height: 24px;
+      color: $secondary;
+      font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', -apple-system, sans-serif;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+  }
+
+  &__btn {
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $primary;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: $accent;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 32px;
+
+    &:hover {
+      color: $white;
+      background-color: $primary;
+    }
+  }
+}
