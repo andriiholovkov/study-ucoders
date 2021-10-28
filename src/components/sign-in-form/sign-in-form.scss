@@ -25,47 +25,8 @@
     text-align: center;
   }
 
-  &__email {
-    margin-bottom: 8px;
-    height: 40px;
-    padding: 4px 12px;
-    border: 1px solid $additional-1;
-    border-radius: 4px;
-
-    &::placeholder {
-      font-size: 14px;
-      color: $placeholder;
-    }
-
-    &:hover {
-      border: 2px solid $additional-2;
-    }
-
-    &:focus-visible {
-      border: 2px solid red;
-    }
-  }
-
-  &__password {
-    margin-bottom: 8px;
-    height: 40px;
-    padding: 4px 12px;
-    border: 1px solid $additional-1;
-    border-radius: 4px;
-
-    &::placeholder {
-      color: $placeholder;
-      font-size: 14px;
-      line-height: 24px;
-    }
-
-    &:hover {
-      border: 2px solid $additional-2;
-    }
-  }
-
   &__link {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: $secondary;
     font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -94,6 +55,28 @@
       'Ubuntu', -apple-system, sans-serif;
       font-weight: 500;
       text-decoration: underline;
+    }
+  }
+
+  &__btn {
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $primary;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: $accent;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 32px;
+
+    &:hover {
+      color: $white;
+      background-color: $primary;
     }
   }
 }

@@ -9,4 +9,25 @@
   height: 52px;
   background-color: $background-dark;
   margin-bottom: 40px;
+
+  &__btn {
+      height: 36px;
+      padding: 6px 12px 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+      line-height: 24px;
+      color: $white;
+      font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', -apple-system, sans-serif;
+      font-weight: 400;
+      border-radius: 4px;
+      cursor: pointer;
+      background-color: $background-dark;
+      border: 1px solid $additional-1;
+
+      :hover {
+        color: $primary;
+        background-color: $white;
+      }
+  }
 }

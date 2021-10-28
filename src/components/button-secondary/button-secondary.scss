@@ -1,7 +1,6 @@
 @import './src/assets/_colors.scss';
 
-.mainHeader {
-  &__btn-sm {
+  button {
     height: 36px;
     padding: 4px 8px;
     box-sizing: border-box;
@@ -16,9 +15,8 @@
     background-color: $background-dark;
     border: 1px solid $additional-1;
 
-    &:hover {
+    :hover {
       color: $primary;
       background-color: $white;
     }
   }
-}

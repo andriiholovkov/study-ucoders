@@ -21,5 +21,12 @@
       color: $white;
       background-color: $primary;
     }
+
+    &:disabled {
+      color: $white;
+      font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', -apple-system, sans-serif;
+      background-color: #999;
+    }
   }
 }

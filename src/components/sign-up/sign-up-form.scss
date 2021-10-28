@@ -21,30 +21,11 @@
   }
 
   &__input-wrapper {
+    display: flex;
+    flex-direction: column;
+
     & :last-child {
       margin-bottom: 24px;
-    }
-  }
-
-  & input {
-    width: 100%;
-    margin-bottom: 8px;
-    height: 40px;
-    padding: 4px 12px;
-    border: 1px solid $additional-1;
-    border-radius: 4px;
-
-    &::placeholder {
-      font-size: 14px;
-      color: $placeholder;
-    }
-
-    &:hover {
-      border: 2px solid $additional-2;
-    }
-
-    &:focus-visible {
-      border: 2px solid red;
     }
   }
 
@@ -66,5 +47,14 @@
       font-weight: 500;
       text-decoration: underline;
     }
+  }
+
+  &__error {
+    font-size: 14px;
+    line-height: 18px;
+    color: red;
+    font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', -apple-system, sans-serif;
+    margin-bottom: 8px;
   }
 }
